@@ -5,7 +5,7 @@ import { FaRegMessage, FaRegFloppyDisk } from "react-icons/fa6";
 import { useNavigate } from "react-router-dom";
 
 import "./Header.css";
-import BrandLogo from "../../assets/logo.png";
+import BrandLogo from "../../assets/kt.png";
 import MegaMenu from "./MegaMenu";
 import HamburgerButton from "./HamburgerButton";
 import SearchField from "./SearchField";
@@ -89,9 +89,9 @@ const Header = () => {
                 <HamburgerButton desktop={true} handler={menuHandler} />
                 <Link to="/" className="ml-3 cursor-default md:ml-6 lg:ml-12">
                   <img
-                    className="cursor-pointer border border-white lg:w-36"
+                    className="cursor-pointer w-32 h-32"
                     src={BrandLogo}
-                    alt="Dekaathlon"
+                    alt="kartstore"
                   />
                 </Link>
               </div>

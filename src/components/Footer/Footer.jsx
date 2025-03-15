@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import StoreBenefits from "../Utilities/StoreBenefits";
 
@@ -8,7 +9,7 @@ import DebitCard from "../../assets/debit-card.svg";
 import CreditCard from "../../assets/credit-card.svg";
 import UPI from "../../assets/upi.svg";
 import NetBanking from "../../assets/net-banking.svg";
-import FooterLogo from "../../assets/footer-logo.svg";
+import FooterLogo from "../../assets/kt.png";
 import Leaf from "../../assets/leaf.webp";
 import Stick from "../../assets/stick.webp";
 
@@ -97,7 +98,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center justify-start xl:justify-center">
                 <p className="text-left xl:text-center">
-                  <span className="mr-2">DECATHLON is present in</span>
+                  <span className="mr-2">Kartstore is present in</span>
                   <button className="mt-3 rounded border border-gray-700 px-4 py-2 text-xs">
                     46 Countries
                   </button>
@@ -123,13 +124,13 @@ const Footer = () => {
               Sport advice for you
             </h3>
             <a href="#" className="mb-8 block w-full bg-white p-3 text-center">
-              blog.decathlon.in
+              blog.kartstore.in
             </a>
             <h3 className="mb-4 text-sm font-bold uppercase text-gray-900">
               Explore sports events near you
             </h3>
             <a href="#" className="block w-full bg-white p-3 text-center">
-              play.decathlon.in
+              play.kartstore.in
             </a>
           </div>
         </div>
@@ -151,12 +152,12 @@ const Footer = () => {
             />
             <img
               src={FooterLogo}
-              alt="dekaathlon logo"
-              className="mx-auto w-3/6"
+              alt="kartstore logo"
+              className="mx-auto w-48"
             />
           </div>
           <p className="py-10 text-center text-xs">
-            © 2024 Decathlon Sports India Pvt Ltd. All rights reserved.
+            © 2024 Kartstore Pvt Ltd. All rights reserved.
           </p>
         </div>
       </div>

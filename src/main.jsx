@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -19,7 +20,7 @@ import { CheckoutProvider } from "./contexts/CheckoutContext.jsx";
 
 const routes = createBrowserRouter([
   {
-    path: "/",
+    path: "/shopping-app",
     element: <Homepage />,
     errorElement: <NotFoundPage />,
   },
