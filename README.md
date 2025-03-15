@@ -1,6 +1,6 @@
-# Decathlon Clone (e-commerce)
+# shopping app (e-commerce)
 
-This project is a clone of an e-commerce website https://www.decathlon.in/ created using React.
+This project is a clone of an e-commerce website  created using React.
 
 ## Features
 
@@ -25,7 +25,7 @@ This project is a clone of an e-commerce website https://www.decathlon.in/ creat
 
 To run this project locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/NaveenKharwar/dekaathlon.git`
+1. Clone the repository: `git clone https://github.com/jatinpanchal1o1/shopping-app.git`
 2. Navigate to the project directory: `cd dekaathlon`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm run dev`
